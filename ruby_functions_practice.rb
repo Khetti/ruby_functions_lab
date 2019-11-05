@@ -60,3 +60,7 @@ def volume_of_sphere(radius)
   times_pi = radius_cubed*3.14
   return (times_pi*4/3).to_i
 end
+
+def fahrenheit_to_celsius(fahrenheit)
+  return ((fahrenheit-32)*5/9)
+end
