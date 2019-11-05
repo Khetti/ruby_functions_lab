@@ -32,6 +32,13 @@ def add_string_as_number(first_string, second_string)
 end
 
 def number_to_full_name()
+    if (month == 1)
+      return "January"
+    elsif (month == 3)
+      return "March"
+    elsif (month == 9)
+      return "September"
+    end
 end
 
 def number_to_short_month_name()
