@@ -54,3 +54,9 @@ end
 def volume_of_cube(length)
   return length ** length
 end
+
+def volume_of_sphere(radius)
+  radius_cubed = radius**3
+  times_pi = radius_cubed*3.14
+  return (times_pi*4/3).to_i
+end
